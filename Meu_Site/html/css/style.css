@@ -1,0 +1,56 @@
+
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.logo{
+    padding-left: 50px;
+}
+
+.bi-search{
+    padding-bottom: 3px;
+    
+}
+
+.bi-house{
+    padding-bottom: 3px;
+}
+
+.bi-cart{
+    padding-bottom: 3px;
+}
+
+.list_drop{
+    text-align: justify;
+}
+
+.conta{
+    text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+    .mobile{
+        visibility: hidden;
+    }
+    .drop_mobile{
+        text-align: center;       
+    }
+    .logo{
+        padding-left: 0;
+    }
+    .d-flex{
+        visibility: hidden;
+    }
+
+}
+
+.btn_search{
+    margin-right: 50px;
+}
+
+.cart{
+    text-align: center;
+}
