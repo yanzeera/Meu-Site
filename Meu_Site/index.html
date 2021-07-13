@@ -12,7 +12,7 @@
 <body>
     
     <!-- Navbar  -->
-    <nav class="navbar nav navbar-expand-lg navbar-light">
+    <nav class="navbar nav navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand logo"> QUITANDA ONLINE </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,25 +34,16 @@
                     Produtos
                 </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item list_drop" href="#">Abacaxi</a></li>
+                    <li><a class="dropdown-item list_drop" href="#frutas">Frutas</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#verduras">Verduras</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#bolos">Bolos</a></li>
                   </ul>
               </li><!-- area 1 -->
-              <li class="nav-item dropdown"><!-- area produtos 2 -->
-                <a class="nav-link drop_mobile dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Produtos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li><!-- area 2 -->
+              <li class="nav-item">
+                <a class="nav-link conta active" aria-current="page" href="cadastro.html">Cadastro</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link conta active" aria-current="page" href="conta.html">Conta</a>
               </li>
@@ -102,64 +93,111 @@
 
       <div class="row produtos"><!-- 1 linha -->      
 
-          <div class="row mx-auto"><!-- 2 linha -->
+          <div id="frutas" class="row mx-auto"><!-- 2 linha -->
 
             <div class="col-md-3 sm-12 coluna"><!-- 2 coluna -->
               <div class="card text-center">
-                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <img src="img/abacaxi.jpg" class="card-img-top" alt="maça">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00/cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
 
             <div class="col-md-3 sm-12"><!-- 3 coluna -->
               <div class="card text-center">
-                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <img src="img/maca.jpg" class="card-img-top" alt="maça">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Maça</h5>
+                  <p class="card-text">R$ 28,50/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
 
             <div class="col-md-3 sm-12"><!-- 4 coluna -->
               <div class="card text-center">
-                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <img src="img/banana.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Banana</h5>
+                  <p class="card-text">R$ 27,90/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
 
             <div class="col-md-3 sm-12"><!-- 5 coluna -->
               <div class="card text-center">
-                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <img src="img/laranja.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Laranja</h5>
+                  <p class="card-text">R$ 20,90/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
             
           </div>
                 
-
           <div class="row mx-auto"><!-- 2 linha -->
 
             <div class="col-md-3 sm-12"><!-- 2 coluna -->
               <div class="card text-center">
-                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <img src="img/kiwi.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Kiwi</h5>
+                  <p class="card-text">R$ 24,59/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 sm-12"><!-- 3 coluna -->
+              <div class="card text-center">
+                <img src="img/pera.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pera</h5>
+                  <p class="card-text">R$ 29,90/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 sm-12"><!-- 4 coluna -->
+              <div class="card text-center">
+                <img src="img/ameixa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ameixa</h5>
+                  <p class="card-text">R$ 19,90/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 sm-12"><!-- 5 coluna -->
+              <div class="card text-center">
+                <img src="img/melancia.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Melancia</h5>
+                  <p class="card-text">R$ 50,00/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <div id="verduras" class="row mx-auto"><!-- 2 linha -->
+
+            <div class="col-md-3 sm-12"><!-- 2 coluna -->
+              <div class="card text-center">
+                <img src="img/alface.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Alface</h5>
+                  <p class="card-text">R$ 39,90/Kg.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
@@ -168,9 +206,9 @@
               <div class="card text-center">
                 <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
@@ -179,9 +217,9 @@
               <div class="card text-center">
                 <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
@@ -190,27 +228,72 @@
               <div class="card text-center">
                 <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
                 </div>
               </div>
             </div>
-            
-            <nav aria-label="Page navigation example">
-              <ul class="pagination btns justify-content-md-end">
-                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-              </ul>
-            </nav>
-
+          
           </div>
+
+          <div id="bolos" class="row mx-auto"><!-- 2 linha -->
+
+            <div class="col-md-3 sm-12"><!-- 2 coluna -->
+              <div class="card text-center">
+                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 sm-12"><!-- 3 coluna -->
+              <div class="card text-center">
+                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 sm-12"><!-- 4 coluna -->
+              <div class="card text-center">
+                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 sm-12"><!-- 5 coluna -->
+              <div class="card text-center">
+                <img src="img/abacaxi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Abacaxi</h5>
+                  <p class="card-text">R$ 34,00 cada.</p>
+                  <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Fora de estoque</a>
+                </div>
+              </div>
+            </div>
           
-          
+          </div>
         
+          <nav aria-label="Page navigation example">
+            <ul class="pagination btns justify-content-md-end">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
 
       </div>
     

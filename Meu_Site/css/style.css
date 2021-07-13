@@ -4,9 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{
-    background-color: #e2dfd4;
-}
+
 
 
 
@@ -69,7 +67,7 @@ body{
 }
 
 .btns{
-    margin-right: 60px;
+    margin-right: 73px;
 }
 
 
@@ -81,7 +79,6 @@ body{
     text-align: justify;
     justify-content: space-between;
 }
-
 
 
 
